@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node dist/main.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@dxos/client": "^0.5.8"
+    "@dxos/client": "^0.5.8",
+    "cambria": "^0.1.2",
+    "octokit": "^4.0.2"
   },
   "devDependencies": {
     "typescript": "^5.5.2"
