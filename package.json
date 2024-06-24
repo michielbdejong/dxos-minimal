@@ -1,9 +1,4 @@
 {
-  "name": "dxos-minimal",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node src/index.js"
-  },
   "dependencies": {
     "@dxos/client": "^0.5.8"
   }
