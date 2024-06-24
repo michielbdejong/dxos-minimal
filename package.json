@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@dxos/client": "^0.5.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2"
   }
 }

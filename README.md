@@ -3,6 +3,6 @@ Repo to investigate https://discord.com/channels/837138313172353095/125473710195
 ```
 # brew install python-setuptools
 npm install
-node ./index.js
+./node_modules/.bin/tsc src --outDir dist/
+node dist/index.js
 ```
-x
