@@ -5,3 +5,6 @@ Repo to investigate https://discord.com/channels/837138313172353095/125473710195
 npm install
 npm run build
 ```
+
+It turned out DXOS requires you to have `skipLibCheck` set to true in your tsconfig.json
+https://github.com/federatedbookkeeping/github-dxos/commit/917677d5c267e27e8fdb4ec6209bbde35877db4b
